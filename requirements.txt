@@ -1,0 +1,44 @@
+# Dependencies
+
+# Golf Ball Trajectory Tracker Dependencies
+
+# YOLO v8 object detection framework
+ultralytics>=8.0.0
+
+# Computer vision and video processing (headless version for servers/notebooks)
+opencv-python-headless>=4.8.0
+
+# Numerical computing and array operations
+numpy>=1.24.0
+
+# Scientific computing library for spline interpolation
+scipy>=1.10.0
+
+# Model conversion and optimization
+coremltools>=7.0.0
+onnx>=1.14.0
+
+# PyTorch Lightning for training workflows
+pytorch-lightning>=2.0.0
+
+# Computer vision utilities and supervision tools
+supervision>=0.18.0
+
+# Additional dependencies that may be required by ultralytics
+# (these are typically installed automatically with ultralytics)
+torch>=2.0.0
+torchvision>=0.15.0
+Pillow>=9.0.0
+matplotlib>=3.6.0
+PyYAML>=6.0.0
+tqdm>=4.65.0
+
+# Optional: For GPU acceleration (CUDA-enabled PyTorch)
+# Uncomment the lines below if you have NVIDIA GPU and want GPU acceleration
+# torch>=2.0.0+cu118
+# torchvision>=0.15.0+cu118
+# --extra-index-url https://download.pytorch.org/whl/cu118
+
+# Note: If running in Google Colab or Jupyter notebooks, you can install with:
+# !pip install -q ultralytics opencv-python-headless scipy coremltools onnx
+# !pip install pytorch-lightning supervision
